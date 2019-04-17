@@ -8,7 +8,7 @@ def countdown(number)
   end
   end
   def countdown_with_sleep(time)
-    while time > 5
+    while time >=5
     time=time-1
   end 
 end
