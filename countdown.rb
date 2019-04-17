@@ -7,6 +7,7 @@ def countdown(number)
   number=number-1
   end
   end
-  def countdown_with_sleep
+  def countdown_with_sleep(minutes)
+    while minutes > 0
     sleep(4.minutes)
     
